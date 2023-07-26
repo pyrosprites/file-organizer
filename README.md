@@ -23,7 +23,14 @@ start "WhatEverTitleYouWant" "C:\Python311\Projects\organiser\main.pyw"
 ```
 The directory in the second paramater is there for you to provide where you wish to have this project be. I chose my root python directory to get rid of my own stress >.> but you can do what you want.
 
-From here you must have setup the startup and where you want the project to be so let's continue, now let's make sure it works. Restart your device and when you boot up again you should see your files already organized, if not then you must simply move a file to the Downloads folder and you should see it work.
+From here you must have setup the startup and where you want the project to be stored, and now we almost forgot to install our modules.
 
+We utalize the Watchdog module to observe these files and folders so let's install them with a simple command.
+
+```py
+pip install Watchdog
+```
+
+Restart your device and when you boot up again you should see your files already organized, if not then you must simply move a file to the Downloads folder and you should see it work.
 
 Otherwise, please create an issue and elaborate on your situation or how the process can be improved.
